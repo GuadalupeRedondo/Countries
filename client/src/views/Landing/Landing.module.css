@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/*font-family: 'Archivo Black', sans-serif;*/
+/*font-family: 'Quicksand', sans-serif;*/
+
+.container{
+    background-image: url('../../assets/img.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    margin:0.5em;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+}
+h2{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+}
+.container button{
+    padding:1em;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: transparent; 
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.container button:hover{
+    box-shadow: 3px 3px 3px rgb(11, 11, 11);
+    transform: scale(1.05);
+}

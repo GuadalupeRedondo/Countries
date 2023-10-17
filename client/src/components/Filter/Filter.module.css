@@ -1,0 +1,19 @@
+.filterContainer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap; 
+    padding-top: 20px;
+}
+
+select {
+    flex: 1; 
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #a1a0a0;
+    border-radius: 4px;
+    outline: none;
+    color: rgb(139, 137, 137);
+}
